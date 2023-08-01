@@ -1,11 +1,10 @@
-alpha = input()
-time = 0
-for i in  alpha:
+a = input()
+t = 0
+for i in  a:
     if i < "S":
-        time += (ord(i)-56)//3
+        t += (ord(i)-56)//3
     elif i < "Z":
-        time += (ord(i)-57)//3
+        t += (ord(i)-57)//3
     else:
-        time += 10
-
-print(time)
+        t += 10
+print(t)
