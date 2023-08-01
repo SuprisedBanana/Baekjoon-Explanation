@@ -1,6 +1,5 @@
 while 1:
     try:
-        S = input()
+        print(input())
     except EOFError:
         break
-    print(S)
