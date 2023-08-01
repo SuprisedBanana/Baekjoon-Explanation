@@ -4,8 +4,6 @@ new_B = ""
 
 for i in range(len(A)):
     new_A += A[-1*(i+1)]
-
-for i in range(len(B)):
     new_B += B[-1*(i+1)]
 
 if new_A < new_B:
