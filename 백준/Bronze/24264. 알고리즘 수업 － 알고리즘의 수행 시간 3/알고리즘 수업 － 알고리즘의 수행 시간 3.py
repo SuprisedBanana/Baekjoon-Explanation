@@ -1,1 +1,1 @@
-print(int(input())**2,"\n2")
+print(int(input())**2,2)
