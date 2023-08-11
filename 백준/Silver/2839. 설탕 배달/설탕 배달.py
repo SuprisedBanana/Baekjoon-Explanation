@@ -1,13 +1,13 @@
-N = int(input())
+a = int(input())
+cnt = 0
 
-x = 0
-y = (N-3*x)/5
-while(y != int(y)):
-    x+=1
-    y = (N-3*x)/5
+while a >= 0:
+    if a % 5 == 0:
+        cnt += (a // 5)
+        print(cnt)
+        break
+    a -= 3
+    cnt += 1
 
-sum = int(y)+int(x)
-if(y<0):
-    print(-1)
 else:
-    print(sum)
+    print(-1)
